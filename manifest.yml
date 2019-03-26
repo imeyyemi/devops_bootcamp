@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: devops102
+  name: devops102
+  memory: 512M
+  stack: cflinuxfs2
